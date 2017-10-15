@@ -1,5 +1,5 @@
 pub fn nth(n: usize) -> Result<usize, String> { 
-  if n == 0 {
+  if n <= 1 {
     return Err("Nope".to_string());
   }
 
