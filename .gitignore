@@ -12,3 +12,6 @@ rust/*/target
 
 # Exercism
 .exercism
+
+# CPP
+cpp/*/build
